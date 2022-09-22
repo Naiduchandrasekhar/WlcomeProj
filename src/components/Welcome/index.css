@@ -1,0 +1,44 @@
+/* Write your CSS here */
+
+.bg-container {
+  background-color: #1e293b;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.heading {
+  color: #f0bb03;
+  font-size: 70px;
+}
+
+.para {
+  font-size: Bree Serif;
+  font-size: 24px;
+  color: #ffffff;
+}
+
+.button {
+  background-color: #ffffff;
+  padding: 10px;
+  color: black;
+  font-size: 13px;
+  border-radius: 7px;
+  cursor: pointer;
+  border-width: 0px;
+}
+
+@media screen and (max-width) {
+  .bg-container {
+    width: 30%;
+  }
+}
